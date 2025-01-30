@@ -13,7 +13,7 @@ public class KjoeleskapApp extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Kjøleskap App");
+        primaryStage.setTitle("Kjøleskap App.");
         primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("App.fxml"))));
         primaryStage.show();
     }
